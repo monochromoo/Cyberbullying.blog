@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Let's Fight Cyberbullying: Create a Safe and Healthy Digital Space</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  
+/* ---------- GLOBAL ---------- */
+:root {
+  --primary: #4f6ef7;
+  --accent: #00c6ff;
+  --dark: #1e3c72;
+}
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  background: linear-gradient(135deg, var(--dark), #2a5298, var(--accent));
+  color: #111;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  padding: 4rem 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-box {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 1.8rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeDown 1.3s ease forwards;
+}
+.title-box h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #fff, #e0f0ff, var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* ---------- MAIN GRID ---------- */
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: -2rem auto 0;
+  padding: 2rem;
+  animation: fadeUp 1.5s ease forwards;
+}
+/* box lebih berwarna */
+article, aside {
+  background: linear-gradient(145deg, rgba(255,255,255,0.85), rgba(200,225,255,0.9));
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: justify;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+article:hover, aside:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+article img {
+  display: block;
+  max-width: 55%;
+  margin: 0 auto 1.5rem;
+  height: auto;
+  border-radius: 14px;
+}
+
+/* ---------- SIDEBAR ---------- */
+aside h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 0;
+}
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+aside ul li {
+  margin-bottom: 0.8rem;
+}
+aside ul li a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- IMPACT SECTION ---------- */
+.impacts {
+  max-width: 1100px;
+  margin: 4rem auto 3rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.impacts h2 {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.8rem;
+}
+.impact-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  /* ganti dari putih ke gradasi */
+  background: linear-gradient(150deg, rgba(230,250,255,0.95), rgba(180,210,255,0.95));
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.impact-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 30px rgba(79, 110, 247, 0.25);
+}
+.impact-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.impact-card p {
+  font-size: 0.95rem;
+  padding: 1rem 1.2rem 1.4rem;
+  text-align: justify;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeDown {
+  0% {opacity: 0; transform: translateY(-20px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+@keyframes fadeUp {
+  0% {opacity: 0; transform: translateY(30px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  main { grid-template-columns: 1fr; }
+  .title-box h1 { font-size: 1.4rem; }
+  article img { max-width: 75%; }
+}
+</style>
+
+</head>
+<body>
+<header>
+  <div class="title-box">
+    <h1>Let's fight Cyber Bullying: Create a Safe and Healthy Digital Space</h1>
+  </div>
+</header>
+
+<main>
+    <article>
+      <img src="https://i.imgur.com/GCIzuUg.jpeg" alt="Cyber Bullying">
+      <p>In today’s digital era, cyberbullying has emerged as a serious threat to social well-being, particularly among teenagers. This form of harassment, defined as sending, posting, or sharing negative, harmful, false, or mean content via digital devices like phones, computers, or online platforms—spreads rapidly through social media, messaging apps, forums, and gaming platforms, making it difficult to control. Because it often involves anonymity and leaves a permanent digital record, cyberbullying can inflict deeper psychological harm than traditional bullying.</p>
+      <p>Cyberbullying triggers a wide array of harms, including emotional pressure, shame, depression, and in some cases, suicidal thoughts. Victims often suffer compromised mental health, strained social relationships, reduced confidence, and impaired academic performance. These serious consequences demand collective action from parents, schools, governments, and digital service providers to make prevention and protection of victims shared and urgent priorities.</p>
+      <p>Technology’s rapid growth enables cyberbullies to strike without time or place limits. Operating behind anonymous accounts, perpetrators feel emboldened, while harmful content remains accessible and virtually impossible to fully erase. For victims, prolonged exposure intensifies stress, anxiety, helplessness, and even trauma—studies show that nearly all cyberbullying victims (93%) report negative mental health effects; in addition, exposure increases suicidal ideation by ~15% and attempts by almost 9%.</p>
+      <p>Weak supervision and low digital literacy further exacerbate cyberbullying. Many users lack understanding of digital etiquette and legal repercussions for online harassment. Moreover, enforcement of existing laws is inconsistent, and school-based education on cyberbullying remains limited. Without prompt intervention, young people risk growing up in a digital culture that normalizes psychological abuse, causing long-term social and academic decline.</p>
+      <p>To counter cyberbullying, all societal sectors must act decisively. Schools and families should strengthen digital literacy and teach ethical online behavior. Governments must enforce stricter cyberbullying regulations, while social media platforms are urged to enhance monitoring, reporting systems, and protective tools. Victims deserve accessible counseling, support groups, and public advocacy to reduce stigma. Through combined efforts, we can establish a more respectful, safe, and healthy digital environment for all.</p>
+    </article>
+
+    <aside>
+      <h2>References</h2>
+      <ul>
+        <li><a href="https://www.stopbullying.gov/cyberbullying/what-is-it?" target="_blank">StopBullying.gov</a></li>
+        <li><a href="https://www.unicef.org/stories/how-to-stop-cyberbullying?" target="_blank">UNICEF: How to Stop Cyberbullying</a></li>
+        <li><a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/s12888-022-04238-x?" target="_blank">BMC Psychiatry Study</a></li>
+        <li><a href="https://mentalhealthhotline.org/cyberbullying-mental-health?" target="_blank">Mental Health Hotline</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Cyberbullying?" target="_blank">Wikipedia: Cyberbullying</a></li>
+        <li><a href="https://www.avast.com/c-cyberbullying-statistics?" target="_blank">Avast Statistics</a></li>
+        <li><a href="https://www.washingtonpost.com/wellness/2025/05/31/cyberbullying-trauma-ptsd-teens-counseling/" target="_blank">Washington Post Article</a></li>
+        <li><a href="https://www.verywellmind.com/the-psychology-of-cyberbullying-5086615?" target="_blank">Verywell Mind</a></li>
+        <li><a href="https://mcpress.mayoclinic.org/parenting/what-is-cyberbullying-and-how-it-can-be-prevented?" target="_blank">Mayo Clinic Press</a></li>
+        <li><a href="https://time.com/5619999/instagram-mosseri-bullying-artificial-intelligence?" target="_blank">Time: Instagram & AI</a></li>
+      </ul>
+    </aside>
+</main>
+
+<section class="impacts">
+  <h2>Negative Impacts of Cyberbullying</h2>
+  <div class="impact-grid">
+    <div class="impact-card">
+      <img src="https://i.imgur.com/sj7Le1A.jpeg" alt="Anxiety illustration">
+      <p>Increased stress, anxiety, and depression that can severely affect emotional well-being.</p>
+    </div>
+    <div class="impact-card">
+      <img src="https://i.imgur.com/AbOFbEf.jpeg" alt="Isolation">
+      <p>Social withdrawal and feelings of isolation, which erode self-esteem and relationships.</p>
+    </div>
+    <div class="impact-card">
+      <img src="https://i.imgur.com/bzu1I0I.jpeg" alt="Academic performance drop">
+      <p>Decreasing school achievement due to difficulty concentrating and ongoing feelings of fear and anxiety.</p>
+    </div>
+    <div class="impact-card">
+      <img src="https://i.imgur.com/cKIhOi9.jpeg" alt="Mental health issues">
+      <p>Long-term trauma that may lead to severe mental health challenges or suicidal thoughts.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Muhammad Raka Agus Triyono || Muhammad Azka Putra || Muhammad Dzakwan Ammar Ayyasy || Pangeran Hanung Wiratama || Saddam Ali Mursadad
+</footer>
+</body>
+</html>
